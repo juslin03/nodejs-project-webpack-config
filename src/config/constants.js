@@ -17,15 +17,15 @@ function normalizePort(val) {
 }
 
 const devConfig = {
-  MONGO_URL: "mongodb://localhost/nodejsrestapi-dev",
+  MONGO_URL: "mongodb://localhost/your-dbname-dev",
 };
 
 const testConfig = {
-  MONGO_URL: "mongodb://localhost/nodejsrestapi-test",
+  MONGO_URL: "mongodb://localhost/your-dbname-test",
 };
 
 const prodConfig = {
-  MONGO_URL: "mongodb://localhost/nodejsrestapi-prod",
+  MONGO_URL: "mongodb://localhost/your-dbname-prod",
 };
 
 const defaultConfig = {

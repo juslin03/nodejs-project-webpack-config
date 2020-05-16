@@ -1,6 +1,5 @@
 import express from 'express';
 import middlewaresConfig from './config/middlewares';
-import apiRoutes from './modules';
 
 const app = express();
 
@@ -11,5 +10,4 @@ app.get('/', (req, res, next) => {
     next();
 })
 
-apiRoutes(app);
 export default app;
